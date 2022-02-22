@@ -9,6 +9,8 @@ public class DemoApplication {
 		System.out.println(res);
 		res = calculate.mult(200, 10);
 		System.out.println(res);
+		res = calculate.div(200, 10);
+		System.out.println(res);
 	}
 
 }
@@ -25,6 +27,10 @@ class Calculate {
 	
 	public Integer mult(Integer a, Integer b) {
 		return a*b;
+	}
+	
+	public Integer div(Integer a, Integer b) {
+		return a/b;
 	}
 	
 }
