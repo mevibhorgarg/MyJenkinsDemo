@@ -7,6 +7,8 @@ public class DemoApplication {
 		System.out.println(res);
 		res = calculate.sub(100, 30);
 		System.out.println(res);
+		res = calculate.mult(100, 30);
+		System.out.println(res);
 	}
 
 }
@@ -19,6 +21,10 @@ class Calculate {
 	
 	public Integer sub(Integer a, Integer b) {
 		return a-b;
+	}
+	
+	public Integer mult(Integer a, Integer b) {
+		return a*b;
 	}
 	
 }
