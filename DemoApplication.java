@@ -7,7 +7,7 @@ public class DemoApplication {
 		System.out.println(res);
 		res = calculate.sub(100, 30);
 		System.out.println(res);
-		res = calculate.mult(100, 30);
+		res = calculate.mult(200, 10);
 		System.out.println(res);
 	}
 
